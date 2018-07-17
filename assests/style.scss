@@ -1,0 +1,184 @@
+$primary-color:#323232;
+$second-color:#2eb398;
+$white-color:#ffffff;
+$line-color:#e4e9eb;
+$indicators-active:#8b8784;
+$transation: all ease-out 0.3s;
+@font-face {
+        font-family: 'latoreg';
+        src: url('../fonts/Lato-Regular.woff2') format('woff2'), url('../fonts/Lato-Regular.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+}
+
+@font-face {
+        font-family: 'latobold';
+        src: url('../fonts/Lato-Bold.woff2') format('woff2'), url('../fonts/Lato-Bold.woff') format('woff');
+        font-weight: bold;
+        font-style: normal;
+}
+
+@font-face {
+        font-family: 'mavenreg';
+        src: url('../fonts/MavenPro-Regular.woff2') format('woff2'), url('../fonts/MavenPro-Regular.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+}
+
+* {
+        &:focus {
+                outline: none !important;
+        }
+}
+
+body,
+ul,
+ol,
+html {
+        margin: 0;
+        padding: 0;
+}
+
+a {
+        text-decoration: none;
+        &:hover {
+                text-decoration: none;
+        }
+}
+
+.hexal_navbar {
+        position: relative;
+        background: $primary-color;
+        clip-path: polygon(0 0, 100% 0, 100% 75%, 53% 75%, 50% 100%, 47% 75%, 0 75%);
+        padding-bottom: 1%;
+        .container {
+                .navbar_all_items {
+                        padding: 1%;
+                        .all_items {
+                                list-style: none;
+                                text-align: center;
+                                .nav_item {
+                                        display: inline-block;
+                                        margin: 0 1%;
+                                        .nav_link {
+                                                color: $white-color;
+                                                font-family: 'latobold';
+                                                transition: $transation;
+                                                &:hover {
+                                                        color: $second-color;
+                                                }
+                                                img {
+                                                        position: relative;
+                                                        left: 3px;
+                                                }
+                                        }
+                                }
+                        }
+                }
+        }
+}
+
+.line_sperate {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        &::before {
+                content: '';
+                position: absolute;
+                left: 4%;
+                width: 40%;
+                height: 1px;
+                background: $line-color;
+                top: -30px;
+        }
+        &::after {
+                content: '';
+                position: absolute;
+                right: 4%;
+                width: 40%;
+                height: 1px;
+                background: $line-color;
+                top: -30px;
+        }
+}
+
+.portfolio_slider {
+        position: relative;
+        .our_portfolio {
+                .portfolio_all_content {
+                        margin-bottom: -4%;
+                        &:last-child {
+                                margin-bottom: 0;
+                        }
+                        .portfolio_project {
+                                text-align: center;
+                                position: relative;
+                                .line_verticaly {
+                                        position: absolute;
+                                        width: 1px;
+                                        height: 45%;
+                                        background: $line-color;
+                                        display: inline-block;
+                                        top: 28%;
+                                }
+                                .project_content {
+                                        margin: 1%;
+                                        display: inline-block;
+                                        width: 230px;
+                                        height: 230px;
+                                        clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+                                        transition: $transation;
+                                        .project_link {
+                                                .project_img {
+                                                        width: 100%;
+                                                        transition: $transation;
+                                                        filter: blur(1px);
+                                                }
+                                        }
+                                        &:hover {
+                                                clip-path: polygon(50% 0%, 100% 25%, 100% 80%, 50% 100%, 0% 75%, 0% 20%);
+                                        }
+                                        &:hover .project_link .project_img {
+                                                filter: blur(0);
+                                        }
+                                }
+                        }
+                }
+        }
+        .slider_indicators {
+                position: absolute;
+                bottom: 0;
+                left: 1%;
+                list-style: none;
+                li {
+                        display: inline-block;
+                        margin-right: 4px;
+                        width: 10px;
+                        height: 10px;
+                        button {
+                                border: none;
+                                width: 10px;
+                                height: 10px;
+                                color: rgba(0, 0, 0, 0);
+                                padding: 0;
+                                cursor: pointer;
+                                background: rgb(221, 210, 197);
+                                transition: $transation;
+                                &:hover {
+                                        background: $indicators-active;
+                                }
+                        }
+                        &.slick-active button {
+                                background: $indicators-active;
+                        }
+                }
+        }
+}
+
+.line_sperate_horizontal {
+        display: block;
+        height: 2px;
+        width: 94%;
+        margin: 1% auto;
+        background: $line-color;
+}

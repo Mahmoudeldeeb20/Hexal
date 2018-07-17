@@ -1,0 +1,55 @@
+doctype html
+html(lang="en")
+        head
+                meta(charset="utf-8")
+                meta(name="viewport",content="width=device-width, initial-scale=1.0")
+                meta(http-equiv="X-UA-Compatible" content="ie=edge")
+                include assests/styles.pug
+                title HeXal
+        body
+                aside.hexal_navbar
+                        .container
+                                nav.navbar_all_items
+                                        mixin nav_item(item)
+                                                li.nav_item
+                                                        a(href="#").nav_link= item
+                                        ul.all_items
+                                                each item in ["PORTFOLIO","ABOUT"]
+                                                        +nav_item(item)
+                                                li.nav_item
+                                                        a.nav_link(href="#")
+                                                                img(src="img/hexal_logo.png" alt="Hexal Logo")
+                                                each item in ["BLOG","GET IN TOUCH"]
+                                                        +nav_item(item)
+                span.line_sperate
+                section.portfolio_slider
+                        - for( var x = 0 ; x < 6 ; x++)       
+                                .our_portfolio
+                                        .portfolio_all_content
+                                                .portfolio_project
+                                                        span.line_verticaly
+                                                        - for( var i = 1 ; i < 5 ; i++ )
+                                                                .project_content
+                                                                        a(href = "#" class = "project_link")
+                                                                                img(class = "project_img" src = 'img/project-'+ i + '.jpg', alt = "Project Img")
+                                                        span.line_verticaly
+                                        .portfolio_all_content
+                                                .portfolio_project
+                                                        - for( var i = 5 ; i < 10 ; i++ )
+                                                                .project_content
+                                                                        a(href = "#" class = "project_link")
+                                                                                img(class = "project_img" src = 'img/project-'+ i + '.jpg', alt = "Project Img")
+                                        .portfolio_all_content
+                                                .portfolio_project
+                                                        span.line_verticaly
+                                                        - for( var i = 10 ; i < 14 ; i++ )
+                                                                .project_content
+                                                                        a(href = "#" class = "project_link")
+                                                                                img(class = "project_img" src = 'img/project-'+ i + '.jpg', alt = "Project Img")
+                                                        span.line_verticaly
+                span.line_sperate_horizontal
+               
+               
+               
+                include assests/scripts.pug
+
