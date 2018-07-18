@@ -279,7 +279,8 @@ a {
         }
 }
 
-.hexal_footer_copy {
+.hexal_footer {
+        position: relative;
         padding: 4%;
         background: $primary-color;
         font-family: $font-primary;
@@ -410,5 +411,25 @@ a {
                                 }
                         }
                 }
+        }
+        &::after {
+                content: '';
+                position: absolute;
+                width: 96%;
+                left: 2%;
+                bottom: 2%;
+                height: 2px;
+                background: #2b2b2b;
+        }
+}
+
+.copy_right {
+        background: #222222;
+        font-family: $font-primary;
+        padding: 1%;
+        .copy_content {
+                color: #454545;
+                margin: 0;
+                margin-left: 2%;
         }
 }

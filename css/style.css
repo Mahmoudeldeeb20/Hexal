@@ -307,29 +307,30 @@ a:hover {
   background: #ffffff;
 }
 
-.hexal_footer_copy {
+.hexal_footer {
+  position: relative;
   padding: 4%;
   background: #323232;
   font-family: "mavenreg";
 }
 
-.hexal_footer_copy .form_heading {
+.hexal_footer .form_heading {
   color: #e0e0e0;
   font-size: 38pt;
   margin: 0;
 }
 
-.hexal_footer_copy .form_description {
+.hexal_footer .form_description {
   color: #bebebe;
   font-size: 18pt;
 }
 
-.hexal_footer_copy .contact_us .contact_form_content .contact_form {
+.hexal_footer .contact_us .contact_form_content .contact_form {
   font-family: "latoreg";
   padding: 1px;
 }
 
-.hexal_footer_copy .contact_us .contact_form_content .contact_form .form_input {
+.hexal_footer .contact_us .contact_form_content .contact_form .form_input {
   display: block;
   background: #454545;
   width: 100%;
@@ -342,31 +343,31 @@ a:hover {
   border: 1px solid transparent;
 }
 
-.hexal_footer_copy .contact_us .contact_form_content .contact_form .form_input::-webkit-input-placeholder {
+.hexal_footer .contact_us .contact_form_content .contact_form .form_input::-webkit-input-placeholder {
   color: #bebebe;
   -webkit-transition: all ease-out 0.3s;
   transition: all ease-out 0.3s;
 }
 
-.hexal_footer_copy .contact_us .contact_form_content .contact_form .form_input:-ms-input-placeholder {
+.hexal_footer .contact_us .contact_form_content .contact_form .form_input:-ms-input-placeholder {
   color: #bebebe;
   -webkit-transition: all ease-out 0.3s;
   transition: all ease-out 0.3s;
 }
 
-.hexal_footer_copy .contact_us .contact_form_content .contact_form .form_input::-ms-input-placeholder {
+.hexal_footer .contact_us .contact_form_content .contact_form .form_input::-ms-input-placeholder {
   color: #bebebe;
   -webkit-transition: all ease-out 0.3s;
   transition: all ease-out 0.3s;
 }
 
-.hexal_footer_copy .contact_us .contact_form_content .contact_form .form_input::placeholder {
+.hexal_footer .contact_us .contact_form_content .contact_form .form_input::placeholder {
   color: #bebebe;
   -webkit-transition: all ease-out 0.3s;
   transition: all ease-out 0.3s;
 }
 
-.hexal_footer_copy .contact_us .contact_form_content .contact_form .form_input:focus {
+.hexal_footer .contact_us .contact_form_content .contact_form .form_input:focus {
   font-family: "latobold";
   color: rgba(255, 255, 255, 0.7);
   -webkit-transition: all ease-out 0.3s;
@@ -374,31 +375,31 @@ a:hover {
   border: 1px solid rgba(255, 255, 255, 0.7);
 }
 
-.hexal_footer_copy .contact_us .contact_form_content .contact_form .form_input:focus::-webkit-input-placeholder {
+.hexal_footer .contact_us .contact_form_content .contact_form .form_input:focus::-webkit-input-placeholder {
   font-family: "latoreg";
   -webkit-transition: all ease-out 0.3s;
   transition: all ease-out 0.3s;
 }
 
-.hexal_footer_copy .contact_us .contact_form_content .contact_form .form_input:focus:-ms-input-placeholder {
+.hexal_footer .contact_us .contact_form_content .contact_form .form_input:focus:-ms-input-placeholder {
   font-family: "latoreg";
   -webkit-transition: all ease-out 0.3s;
   transition: all ease-out 0.3s;
 }
 
-.hexal_footer_copy .contact_us .contact_form_content .contact_form .form_input:focus::-ms-input-placeholder {
+.hexal_footer .contact_us .contact_form_content .contact_form .form_input:focus::-ms-input-placeholder {
   font-family: "latoreg";
   -webkit-transition: all ease-out 0.3s;
   transition: all ease-out 0.3s;
 }
 
-.hexal_footer_copy .contact_us .contact_form_content .contact_form .form_input:focus::placeholder {
+.hexal_footer .contact_us .contact_form_content .contact_form .form_input:focus::placeholder {
   font-family: "latoreg";
   -webkit-transition: all ease-out 0.3s;
   transition: all ease-out 0.3s;
 }
 
-.hexal_footer_copy .contact_us .contact_form_content .contact_form .form_text_area {
+.hexal_footer .contact_us .contact_form_content .contact_form .form_text_area {
   display: block;
   background: #454545;
   width: 100%;
@@ -412,31 +413,31 @@ a:hover {
   border: 1px solid transparent;
 }
 
-.hexal_footer_copy .contact_us .contact_form_content .contact_form .form_text_area::-webkit-input-placeholder {
+.hexal_footer .contact_us .contact_form_content .contact_form .form_text_area::-webkit-input-placeholder {
   color: #bebebe;
   -webkit-transition: all ease-out 0.3s;
   transition: all ease-out 0.3s;
 }
 
-.hexal_footer_copy .contact_us .contact_form_content .contact_form .form_text_area:-ms-input-placeholder {
+.hexal_footer .contact_us .contact_form_content .contact_form .form_text_area:-ms-input-placeholder {
   color: #bebebe;
   -webkit-transition: all ease-out 0.3s;
   transition: all ease-out 0.3s;
 }
 
-.hexal_footer_copy .contact_us .contact_form_content .contact_form .form_text_area::-ms-input-placeholder {
+.hexal_footer .contact_us .contact_form_content .contact_form .form_text_area::-ms-input-placeholder {
   color: #bebebe;
   -webkit-transition: all ease-out 0.3s;
   transition: all ease-out 0.3s;
 }
 
-.hexal_footer_copy .contact_us .contact_form_content .contact_form .form_text_area::placeholder {
+.hexal_footer .contact_us .contact_form_content .contact_form .form_text_area::placeholder {
   color: #bebebe;
   -webkit-transition: all ease-out 0.3s;
   transition: all ease-out 0.3s;
 }
 
-.hexal_footer_copy .contact_us .contact_form_content .contact_form .form_text_area:focus {
+.hexal_footer .contact_us .contact_form_content .contact_form .form_text_area:focus {
   font-family: "latobold";
   color: rgba(255, 255, 255, 0.7);
   -webkit-transition: all ease-out 0.3s;
@@ -444,31 +445,31 @@ a:hover {
   border: 1px solid rgba(255, 255, 255, 0.7);
 }
 
-.hexal_footer_copy .contact_us .contact_form_content .contact_form .form_text_area:focus::-webkit-input-placeholder {
+.hexal_footer .contact_us .contact_form_content .contact_form .form_text_area:focus::-webkit-input-placeholder {
   font-family: "latoreg";
   -webkit-transition: all ease-out 0.3s;
   transition: all ease-out 0.3s;
 }
 
-.hexal_footer_copy .contact_us .contact_form_content .contact_form .form_text_area:focus:-ms-input-placeholder {
+.hexal_footer .contact_us .contact_form_content .contact_form .form_text_area:focus:-ms-input-placeholder {
   font-family: "latoreg";
   -webkit-transition: all ease-out 0.3s;
   transition: all ease-out 0.3s;
 }
 
-.hexal_footer_copy .contact_us .contact_form_content .contact_form .form_text_area:focus::-ms-input-placeholder {
+.hexal_footer .contact_us .contact_form_content .contact_form .form_text_area:focus::-ms-input-placeholder {
   font-family: "latoreg";
   -webkit-transition: all ease-out 0.3s;
   transition: all ease-out 0.3s;
 }
 
-.hexal_footer_copy .contact_us .contact_form_content .contact_form .form_text_area:focus::placeholder {
+.hexal_footer .contact_us .contact_form_content .contact_form .form_text_area:focus::placeholder {
   font-family: "latoreg";
   -webkit-transition: all ease-out 0.3s;
   transition: all ease-out 0.3s;
 }
 
-.hexal_footer_copy .contact_us .contact_form_content .contact_form .form_submit {
+.hexal_footer .contact_us .contact_form_content .contact_form .form_submit {
   display: block;
   margin-left: auto;
   background: #2eb398;
@@ -481,16 +482,16 @@ a:hover {
   cursor: pointer;
 }
 
-.hexal_footer_copy .contact_us .contact_form_content .contact_form .form_submit:hover {
+.hexal_footer .contact_us .contact_form_content .contact_form .form_submit:hover {
   background: #454545;
   border: 1px solid rgba(255, 255, 255, 0.7);
 }
 
-.hexal_footer_copy .contact_us .contact_form_content .contact_form .form_submit:focus {
+.hexal_footer .contact_us .contact_form_content .contact_form .form_submit:focus {
   color: #191919;
 }
 
-.hexal_footer_copy .contact_us .contact_description_content .description {
+.hexal_footer .contact_us .contact_description_content .description {
   font-family: "latoreg";
   color: #bebebe;
   text-align: justify;
@@ -500,25 +501,25 @@ a:hover {
   transition: all ease-out 0.3s;
 }
 
-.hexal_footer_copy .contact_us .contact_description_content .description .highlight {
+.hexal_footer .contact_us .contact_description_content .description .highlight {
   font-family: "latobold";
   color: #e0e0e0;
 }
 
-.hexal_footer_copy .contact_us .contact_description_content .description:hover {
+.hexal_footer .contact_us .contact_description_content .description:hover {
   background: rgba(255, 255, 255, 0.05);
 }
 
-.hexal_footer_copy .contact_us .contact_description_content .contact_info {
+.hexal_footer .contact_us .contact_description_content .contact_info {
   list-style: none;
 }
 
-.hexal_footer_copy .contact_us .contact_description_content .contact_info li {
+.hexal_footer .contact_us .contact_description_content .contact_info li {
   padding: 2%;
   font-size: 10pt;
 }
 
-.hexal_footer_copy .contact_us .contact_description_content .contact_info li a {
+.hexal_footer .contact_us .contact_description_content .contact_info li a {
   color: #bebebe;
   font-family: "latobold";
   -webkit-transition: all ease-out 0.3s;
@@ -527,7 +528,7 @@ a:hover {
   display: block;
 }
 
-.hexal_footer_copy .contact_us .contact_description_content .contact_info li a i {
+.hexal_footer .contact_us .contact_description_content .contact_info li a i {
   -webkit-transition: all ease-out 0.3s;
   transition: all ease-out 0.3s;
   color: #2eb398;
@@ -535,8 +536,30 @@ a:hover {
   margin-right: 5px;
 }
 
-.hexal_footer_copy .contact_us .contact_description_content .contact_info li a:hover {
+.hexal_footer .contact_us .contact_description_content .contact_info li a:hover {
   background: rgba(255, 255, 255, 0.05);
   color: #2eb398;
+}
+
+.hexal_footer::after {
+  content: '';
+  position: absolute;
+  width: 96%;
+  left: 2%;
+  bottom: 2%;
+  height: 2px;
+  background: #2b2b2b;
+}
+
+.copy_right {
+  background: #222222;
+  font-family: "mavenreg";
+  padding: 1%;
+}
+
+.copy_right .copy_content {
+  color: #454545;
+  margin: 0;
+  margin-left: 2%;
 }
 /*# sourceMappingURL=style.css.map */
