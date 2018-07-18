@@ -1,0 +1,243 @@
+/* For Screen Width From : 992 Px To 1199 PX */
+
+@media (max-width: 1199px) and (min-width:992px) {
+        .hexal_footer {
+                .contact_us {
+                        .contact_description_content {
+                                .contact_info {
+                                        li {
+                                                font-size: 8pt;
+                                        }
+                                }
+                        }
+                }
+        }
+        .owner_information {
+                .information_content {
+                        .owner_info {
+                                .info_content {
+                                        padding-left: 4%;
+                                }
+                        }
+                }
+        }
+}
+
+/* For Screen Width From : 768 Px To 992 PX */
+
+@media (max-width: 992px) and (min-width:769px) {
+        .owner_information {
+                .information_content {
+                        background: rgb(33, 157, 132);
+                        padding: 2%;
+                        border-radius: 2px;
+                        .owner_info {
+                                .info_content {
+                                        .owner_name {
+                                                text-align: center;
+                                        }
+                                        .onwer_skills {
+                                                text-align: center;
+                                                margin-bottom: 2%;
+                                        }
+                                }
+                        }
+                        &::before {
+                                left: -2%;
+                                top: 5%;
+                                height: 90%;
+                        }
+                        &::after {
+                                right: -2%;
+                                top: 5%;
+                                height: 90%;
+                        }
+                }
+        }
+        .hexal_footer {
+                .contact_us {
+                        .contact_description_content {
+                                margin-top: 2%;
+                                .contact_info {
+                                        li {
+                                                padding: 0 2%;
+                                                font-size: 12pt;
+                                        }
+                                }
+                        }
+                }
+        }
+}
+
+/* For Screen Width From : 577 Px To 768 PX */
+
+@media (max-width: 768px) and (min-width:577px) {
+        .portfolio_slider {
+                .our_portfolio {
+                        .portfolio_all_content {
+                                margin-bottom: 0;
+                                .portfolio_project {
+                                        .project_content {
+                                                width: 35%;
+                                                margin-bottom: 5%;
+                                        }
+                                        .line_verticaly {
+                                                display: none;
+                                        }
+                                }
+                        }
+                }
+                .slider_indicators {
+                        bottom: -3%;
+                        li {
+                                width: 8px;
+                                height: 8px;
+                                button {
+                                        width: 8px;
+                                        height: 8px;
+                                }
+                        }
+                }
+        }
+        .owner_information {
+                .information_content {
+                        background: rgb(33, 157, 132);
+                        padding: 2%;
+                        border-radius: 2px;
+                        .owner_info {
+                                .info_content {
+                                        .owner_name {
+                                                text-align: center;
+                                        }
+                                        .onwer_skills {
+                                                text-align: center;
+                                                margin-bottom: 2%;
+                                        }
+                                }
+                        }
+                        &::before {
+                                left: -2%;
+                                top: 5%;
+                                height: 90%;
+                        }
+                        &::after {
+                                right: -2%;
+                                top: 5%;
+                                height: 90%;
+                        }
+                }
+        }
+        .hexal_footer {
+                .contact_us {
+                        .contact_description_content {
+                                margin-top: 2%;
+                                .contact_info {
+                                        li {
+                                                padding: 0 2%;
+                                                font-size: 12pt;
+                                        }
+                                }
+                        }
+                }
+                .form_description {
+                        font-size: 14pt;
+                }
+        }
+}
+
+/* For Screen Width From : 100 Px To 576 PX */
+
+@media (max-width: 576px) and (min-width:100px) {
+        .hexal_navbar {
+                padding-bottom: 4%;
+                .container {
+                        .navbar_all_items {
+                                .all_items {
+                                        .nav_item {
+                                                .nav_link {
+                                                        font-size: 8pt;
+                                                        img {
+                                                                width: 90%;
+                                                                left: 1px;
+                                                        }
+                                                }
+                                        }
+                                }
+                        }
+                }
+        }
+        .portfolio_slider {
+                .slider_indicators {
+                        bottom: -8%;
+                        li {
+                                width: 8px;
+                                height: 8px;
+                                button {
+                                        width: 8px;
+                                        height: 8px;
+                                }
+                        }
+                }
+                .our_portfolio {
+                        .portfolio_all_content {
+                                margin-bottom: 0;
+                                .portfolio_project {
+                                        .project_content {
+                                                width: 35%;
+                                                margin-bottom: 5%;
+                                        }
+                                        .line_verticaly {
+                                                display: none;
+                                        }
+                                }
+                        }
+                }
+        }
+        .owner_information {
+                .information_content {
+                        background: rgb(33, 157, 132);
+                        padding: 2%;
+                        border-radius: 2px;
+                        .owner_info {
+                                .info_content {
+                                        .owner_name {
+                                                text-align: center;
+                                        }
+                                        .onwer_skills {
+                                                text-align: center;
+                                                margin-bottom: 2%;
+                                        }
+                                }
+                        }
+                        &::before {
+                                left: -2%;
+                                top: 5%;
+                                height: 90%;
+                        }
+                        &::after {
+                                right: -2%;
+                                top: 5%;
+                                height: 90%;
+                        }
+                }
+        }
+        .hexal_footer {
+                .contact_us {
+                        .contact_description_content {
+                                margin-top: 2%;
+                                .contact_info {
+                                        li {
+                                                padding: 0 2%;
+                                                font-size: 12pt;
+                                        }
+                                }
+                        }
+                }
+                .form_description {
+                        font-size: 14pt;
+                }
+                &::after {
+                        bottom: 1%;
+                }
+        }
+}

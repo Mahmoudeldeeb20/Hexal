@@ -129,8 +129,7 @@ a {
                                 .project_content {
                                         margin: 1%;
                                         display: inline-block;
-                                        width: $project-dimantion;
-                                        height: $project-dimantion;
+                                        width: 17%;
                                         clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
                                         transition: $transation;
                                         .project_link {
@@ -217,8 +216,8 @@ a {
                                 margin: 0 auto;
                                 clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
                                 transition: all ease-out 0.5s;
-                                width: $project-dimantion;
-                                height: $project-dimantion;
+                                width: 230px;
+                                height: 230px;
                                 border: 2px solid transparent;
                                 overflow: hidden;
                                 img {

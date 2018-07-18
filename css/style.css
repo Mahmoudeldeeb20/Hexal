@@ -132,8 +132,7 @@ a:hover {
 .portfolio_slider .our_portfolio .portfolio_all_content .portfolio_project .project_content {
   margin: 1%;
   display: inline-block;
-  width: 230px;
-  height: 230px;
+  width: 17%;
   -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
           clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   -webkit-transition: all ease-out 0.3s;
