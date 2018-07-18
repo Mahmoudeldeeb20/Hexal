@@ -277,3 +277,105 @@ a {
                 }
         }
 }
+
+.hexal_footer_copy {
+        padding: 4%;
+        background: $primary-color;
+        .contact_us {
+                .contact_form_content {
+                        font-family: $font-primary;
+                        .form_heading {
+                                color: #e0e0e0;
+                                font-size: 38pt;
+                                margin: 0;
+                        }
+                        .form_description {
+                                color: #bebebe;
+                                font-size: 18pt;
+                        }
+                        .contact_form {
+                                font-family: $font-secondary;
+                                padding: 1px;
+                                .form_input {
+                                        display: block;
+                                        background: rgb(69, 69, 69);
+                                        width: 100%;
+                                        height: 50px;
+                                        margin-bottom: 2%;
+                                        padding: 2%;
+                                        color: #bebebe;
+                                        transition: $transation;
+                                        border: 1px solid transparent;
+                                        &::placeholder {
+                                                color: #bebebe;
+                                                transition: $transation;
+                                        }
+                                        &:focus {
+                                                font-family: $font-secondaryB;
+                                                color: rgba(255, 255, 255, 0.7);
+                                                transition: $transation;
+                                                border: 1px solid rgba(255, 255, 255, 0.7);
+                                        }
+                                        &:focus::placeholder {
+                                                font-family: $font-secondary;
+                                                transition: $transation;
+                                        }
+                                }
+                                .form_text_area {
+                                        display: block;
+                                        background: rgb(69, 69, 69);
+                                        width: 100%;
+                                        height: 150px;
+                                        resize: none;
+                                        margin-bottom: 2%;
+                                        padding: 2%;
+                                        color: #bebebe;
+                                        transition: $transation;
+                                        border: 1px solid transparent;
+                                        &::placeholder {
+                                                color: #bebebe;
+                                                transition: $transation;
+                                        }
+                                        &:focus {
+                                                font-family: $font-secondaryB;
+                                                color: rgba(255, 255, 255, 0.7);
+                                                transition: $transation;
+                                                border: 1px solid rgba(255, 255, 255, 0.7);
+                                        }
+                                        &:focus::placeholder {
+                                                font-family: $font-secondary;
+                                                transition: $transation;
+                                        }
+                                }
+                                .form_submit {
+                                        display: block;
+                                        margin-left: auto;
+                                        background: $secondary-color;
+                                        border: 1px solid transparent;
+                                        color: $line-color;
+                                        font-family: 'latobold';
+                                        padding: 1% 4%;
+                                        transition: $transation;
+                                        cursor: pointer;
+                                        &:hover {
+                                                background: #454545;
+                                                border: 1px solid rgba(255, 255, 255, 0.7);
+                                        }
+                                        &:focus {
+                                                color: rgb(25, 25, 25);
+                                        }
+                                }
+                        }
+                }
+                .contact_description_content {
+                        .description {
+                                .highlight {}
+                        }
+                        .contact_info {
+                                li {
+                                        a {}
+                                }
+                        }
+                }
+        }
+}
