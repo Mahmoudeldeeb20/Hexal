@@ -43,7 +43,7 @@ a:hover {
   position: relative;
   background: #323232;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 53% 75%, 50% 100%, 47% 75%, 0 75%);
-          clip-path: polygon(0 0, 100% 0, 100% 75%, 53% 75%, 50% 100%, 47% 75%, 0 75%);
+  clip-path: polygon(0 0, 100% 0, 100% 75%, 53% 75%, 50% 100%, 47% 75%, 0 75%);
   padding-bottom: 1%;
 }
 
@@ -134,7 +134,7 @@ a:hover {
   display: inline-block;
   width: 17%;
   -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-          clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   -webkit-transition: all ease-out 0.3s;
   transition: all ease-out 0.3s;
 }
@@ -144,17 +144,17 @@ a:hover {
   -webkit-transition: all ease-out 0.3s;
   transition: all ease-out 0.3s;
   -webkit-filter: blur(1px);
-          filter: blur(1px);
+  filter: blur(1px);
 }
 
 .portfolio_slider .our_portfolio .portfolio_all_content .portfolio_project .project_content:hover {
   -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 80%, 50% 100%, 0% 75%, 0% 20%);
-          clip-path: polygon(50% 0%, 100% 25%, 100% 80%, 50% 100%, 0% 75%, 0% 20%);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 80%, 50% 100%, 0% 75%, 0% 20%);
 }
 
 .portfolio_slider .our_portfolio .portfolio_all_content .portfolio_project .project_content:hover .project_link .project_img {
   -webkit-filter: blur(0);
-          filter: blur(0);
+  filter: blur(0);
 }
 
 .portfolio_slider .slider_indicators {
@@ -235,7 +235,7 @@ a:hover {
 .owner_information .information_content .owner_img .img_content {
   margin: 0 auto;
   -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-          clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   -webkit-transition: all ease-out 0.5s;
   transition: all ease-out 0.5s;
   width: 230px;
@@ -250,7 +250,7 @@ a:hover {
 
 .owner_information .information_content .owner_img .img_content:hover {
   -webkit-clip-path: polygon(50% 0%, 100% 0%, 100% 100%, 50% 100%, 0% 100%, 0% 0%);
-          clip-path: polygon(50% 0%, 100% 0%, 100% 100%, 50% 100%, 0% 100%, 0% 0%);
+  clip-path: polygon(50% 0%, 100% 0%, 100% 100%, 50% 100%, 0% 100%, 0% 0%);
   border: 2px solid #6ccbbe;
   border-radius: 50%;
 }
@@ -561,4 +561,5 @@ a:hover {
   margin: 0;
   margin-left: 2%;
 }
+
 /*# sourceMappingURL=style.css.map */
