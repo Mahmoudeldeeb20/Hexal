@@ -43,7 +43,7 @@ a:hover {
   position: relative;
   background: #323232;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 53% 75%, 50% 100%, 47% 75%, 0 75%);
-          clip-path: polygon(0 0, 100% 0, 100% 75%, 53% 75%, 50% 100%, 47% 75%, 0 75%);
+  clip-path: polygon(0 0, 100% 0, 100% 75%, 53% 75%, 50% 100%, 47% 75%, 0 75%);
   padding-bottom: 1%;
 }
 
@@ -135,7 +135,7 @@ a:hover {
   width: 230px;
   height: 230px;
   -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-          clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   -webkit-transition: all ease-out 0.3s;
   transition: all ease-out 0.3s;
 }
@@ -145,17 +145,17 @@ a:hover {
   -webkit-transition: all ease-out 0.3s;
   transition: all ease-out 0.3s;
   -webkit-filter: blur(1px);
-          filter: blur(1px);
+  filter: blur(1px);
 }
 
 .portfolio_slider .our_portfolio .portfolio_all_content .portfolio_project .project_content:hover {
   -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 80%, 50% 100%, 0% 75%, 0% 20%);
-          clip-path: polygon(50% 0%, 100% 25%, 100% 80%, 50% 100%, 0% 75%, 0% 20%);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 80%, 50% 100%, 0% 75%, 0% 20%);
 }
 
 .portfolio_slider .our_portfolio .portfolio_all_content .portfolio_project .project_content:hover .project_link .project_img {
   -webkit-filter: blur(0);
-          filter: blur(0);
+  filter: blur(0);
 }
 
 .portfolio_slider .slider_indicators {
@@ -199,4 +199,111 @@ a:hover {
   margin: 1% auto;
   background: #e4e9eb;
 }
+
+.owner_information {
+  padding: 4%;
+  background: #2eb398;
+}
+
+.owner_information .information_content {
+  position: relative;
+}
+
+.owner_information .information_content::before {
+  content: '';
+  position: absolute;
+  left: -1%;
+  top: -10%;
+  width: 1px;
+  height: 120%;
+  background: #219d84;
+}
+
+.owner_information .information_content::after {
+  content: '';
+  position: absolute;
+  right: -1%;
+  top: -10%;
+  width: 1px;
+  height: 120%;
+  background: #219d84;
+}
+
+.owner_information .information_content .owner_img {
+  margin: 0;
+}
+
+.owner_information .information_content .owner_img .img_content {
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  -webkit-transition: all ease-out 0.3s;
+  transition: all ease-out 0.3s;
+  width: 230px;
+  height: 230px;
+  border: 2px solid transparent;
+  overflow: hidden;
+}
+
+.owner_information .information_content .owner_img .img_content img {
+  height: 100%;
+}
+
+.owner_information .information_content .owner_img .img_content:hover {
+  -webkit-clip-path: polygon(50% 0%, 100% 0%, 100% 100%, 50% 100%, 0% 100%, 0% 0%);
+  clip-path: polygon(50% 0%, 100% 0%, 100% 100%, 50% 100%, 0% 100%, 0% 0%);
+  border: 2px solid #6ccbbe;
+  border-radius: 50%;
+}
+
+.owner_information .information_content .owner_info .info_content .owner_name {
+  font-family: "mavenreg";
+  color: #d7fcf5;
+  margin: 0;
+}
+
+.owner_information .information_content .owner_info .info_content .onwer_skills {
+  font-family: "mavenreg";
+  color: #20816d;
+  margin: 0;
+}
+
+.owner_information .information_content .owner_info .info_content .onwer_talk {
+  font-family: "latoreg";
+  color: #d7fcf5;
+  text-align: justify;
+}
+
+.owner_information .information_content .owner_info .info_content .onwer_social_media {
+  list-style: none;
+  display: block;
+  text-align: right;
+}
+
+.owner_information .information_content .owner_info .info_content .onwer_social_media li {
+  display: inline-block;
+}
+
+.owner_information .information_content .owner_info .info_content .onwer_social_media li:nth-child(odd) a {
+  background: #a4dbd4;
+}
+
+.owner_information .information_content .owner_info .info_content .onwer_social_media li:nth-child(even) a {
+  background: #6ccbbe;
+}
+
+.owner_information .information_content .owner_info .info_content .onwer_social_media li a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 2;
+  color: #2eb398;
+  -webkit-transition: all ease-out 0.3s;
+  transition: all ease-out 0.3s;
+}
+
+.owner_information .information_content .owner_info .info_content .onwer_social_media li a:hover {
+  background: #ffffff;
+}
+
 /*# sourceMappingURL=style.css.map */

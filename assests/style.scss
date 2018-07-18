@@ -1,8 +1,13 @@
 $primary-color:#323232;
-$second-color:#2eb398;
+$secondary-color:#2eb398;
 $white-color:#ffffff;
 $line-color:#e4e9eb;
+$info-color:#d7fcf5;
 $indicators-active:#8b8784;
+$project-dimantion:230px;
+$font-primary:'mavenreg';
+$font-secondary:'latoreg';
+$font-secondaryB:'latobold';
 $transation: all ease-out 0.3s;
 @font-face {
         font-family: 'latoreg';
@@ -65,7 +70,7 @@ a {
                                                 font-family: 'latobold';
                                                 transition: $transation;
                                                 &:hover {
-                                                        color: $second-color;
+                                                        color: $secondary-color;
                                                 }
                                                 img {
                                                         position: relative;
@@ -124,8 +129,8 @@ a {
                                 .project_content {
                                         margin: 1%;
                                         display: inline-block;
-                                        width: 230px;
-                                        height: 230px;
+                                        width: $project-dimantion;
+                                        height: $project-dimantion;
                                         clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
                                         transition: $transation;
                                         .project_link {
@@ -181,4 +186,94 @@ a {
         width: 94%;
         margin: 1% auto;
         background: $line-color;
+}
+
+.owner_information {
+        padding: 4%;
+        background: $secondary-color;
+        .information_content {
+                position: relative;
+                &::before {
+                        content: '';
+                        position: absolute;
+                        left: -1%;
+                        top: -10%;
+                        width: 1px;
+                        height: 120%;
+                        background: rgb(33, 157, 132);
+                }
+                &::after {
+                        content: '';
+                        position: absolute;
+                        right: -1%;
+                        top: -10%;
+                        width: 1px;
+                        height: 120%;
+                        background: rgb(33, 157, 132);
+                }
+                .owner_img {
+                        margin: 0;
+                        .img_content {
+                                clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+                                transition: $transation;
+                                width: $project-dimantion;
+                                height: $project-dimantion;
+                                border: 2px solid transparent;
+                                overflow: hidden;
+                                img {
+                                        height: 100%;
+                                }
+                                &:hover {
+                                        clip-path: polygon(50% 0%, 100% 0%, 100% 100%, 50% 100%, 0% 100%, 0% 0%);
+                                        border: 2px solid #6ccbbe;
+                                        border-radius: 50%;
+                                }
+                        }
+                }
+                .owner_info {
+                        .info_content {
+                                .owner_name {
+                                        font-family: $font-primary;
+                                        color: $info-color;
+                                        margin: 0;
+                                }
+                                .onwer_skills {
+                                        font-family: $font-primary;
+                                        color: #20816d;
+                                        margin: 0;
+                                }
+                                .onwer_talk {
+                                        font-family: $font-secondary;
+                                        color: $info-color;
+                                        text-align: justify;
+                                }
+                                .onwer_social_media {
+                                        list-style: none;
+                                        display: block;
+                                        text-align: right;
+                                        li {
+                                                display: inline-block;
+                                                &:nth-child(odd) a {
+                                                        background: #a4dbd4;
+                                                }
+                                                &:nth-child(even) a {
+                                                        background: #6ccbbe;
+                                                }
+                                                a {
+                                                        display: inline-block;
+                                                        width: 30px;
+                                                        height: 30px;
+                                                        text-align: center;
+                                                        line-height: 2;
+                                                        color: $secondary-color;
+                                                        transition: $transation;
+                                                        &:hover {
+                                                                background: $white-color;
+                                                        }
+                                                }
+                                        }
+                                }
+                        }
+                }
+        }
 }
