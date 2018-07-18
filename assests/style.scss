@@ -214,6 +214,7 @@ a {
                 .owner_img {
                         margin: 0;
                         .img_content {
+                                margin: 0 auto;
                                 clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
                                 transition: all ease-out 0.5s;
                                 width: $project-dimantion;
@@ -281,18 +282,18 @@ a {
 .hexal_footer_copy {
         padding: 4%;
         background: $primary-color;
+        font-family: $font-primary;
+        .form_heading {
+                color: #e0e0e0;
+                font-size: 38pt;
+                margin: 0;
+        }
+        .form_description {
+                color: #bebebe;
+                font-size: 18pt;
+        }
         .contact_us {
                 .contact_form_content {
-                        font-family: $font-primary;
-                        .form_heading {
-                                color: #e0e0e0;
-                                font-size: 38pt;
-                                margin: 0;
-                        }
-                        .form_description {
-                                color: #bebebe;
-                                font-size: 18pt;
-                        }
                         .contact_form {
                                 font-family: $font-secondary;
                                 padding: 1px;
@@ -369,11 +370,43 @@ a {
                 }
                 .contact_description_content {
                         .description {
-                                .highlight {}
+                                font-family: $font-secondary;
+                                color: #bebebe;
+                                text-align: justify;
+                                padding: 2%;
+                                border-radius: 2px;
+                                transition: $transation;
+                                .highlight {
+                                        font-family: $font-secondaryB;
+                                        color: #e0e0e0;
+                                }
+                                &:hover {
+                                        background: rgba(255, 255, 255, 0.05);
+                                }
                         }
                         .contact_info {
+                                list-style: none;
                                 li {
-                                        a {}
+                                        padding: 2%;
+                                        font-size: 10pt;
+                                        a {
+                                                color: #bebebe;
+                                                font-family: $font-secondaryB;
+                                                transition: $transation;
+                                                padding: 2%;
+                                                display: block;
+                                                i {
+                                                        transition: $transation;
+                                                        color: $secondary-color;
+                                                        display: inline-block;
+                                                        margin-right: 5px;
+                                                }
+                                                &:hover {
+                                                        background: rgba(255, 255, 255, 0.05);
+                                                        color: $secondary-color;
+                                                }
+                                                &:hover i {}
+                                        }
                                 }
                         }
                 }

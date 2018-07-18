@@ -234,6 +234,7 @@ a:hover {
 }
 
 .owner_information .information_content .owner_img .img_content {
+  margin: 0 auto;
   -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
           clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   -webkit-transition: all ease-out 0.5s;
@@ -309,19 +310,16 @@ a:hover {
 .hexal_footer_copy {
   padding: 4%;
   background: #323232;
-}
-
-.hexal_footer_copy .contact_us .contact_form_content {
   font-family: "mavenreg";
 }
 
-.hexal_footer_copy .contact_us .contact_form_content .form_heading {
+.hexal_footer_copy .form_heading {
   color: #e0e0e0;
   font-size: 38pt;
   margin: 0;
 }
 
-.hexal_footer_copy .contact_us .contact_form_content .form_description {
+.hexal_footer_copy .form_description {
   color: #bebebe;
   font-size: 18pt;
 }
@@ -490,5 +488,55 @@ a:hover {
 
 .hexal_footer_copy .contact_us .contact_form_content .contact_form .form_submit:focus {
   color: #191919;
+}
+
+.hexal_footer_copy .contact_us .contact_description_content .description {
+  font-family: "latoreg";
+  color: #bebebe;
+  text-align: justify;
+  padding: 2%;
+  border-radius: 2px;
+  -webkit-transition: all ease-out 0.3s;
+  transition: all ease-out 0.3s;
+}
+
+.hexal_footer_copy .contact_us .contact_description_content .description .highlight {
+  font-family: "latobold";
+  color: #e0e0e0;
+}
+
+.hexal_footer_copy .contact_us .contact_description_content .description:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.hexal_footer_copy .contact_us .contact_description_content .contact_info {
+  list-style: none;
+}
+
+.hexal_footer_copy .contact_us .contact_description_content .contact_info li {
+  padding: 2%;
+  font-size: 10pt;
+}
+
+.hexal_footer_copy .contact_us .contact_description_content .contact_info li a {
+  color: #bebebe;
+  font-family: "latobold";
+  -webkit-transition: all ease-out 0.3s;
+  transition: all ease-out 0.3s;
+  padding: 2%;
+  display: block;
+}
+
+.hexal_footer_copy .contact_us .contact_description_content .contact_info li a i {
+  -webkit-transition: all ease-out 0.3s;
+  transition: all ease-out 0.3s;
+  color: #2eb398;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.hexal_footer_copy .contact_us .contact_description_content .contact_info li a:hover {
+  background: rgba(255, 255, 255, 0.05);
+  color: #2eb398;
 }
 /*# sourceMappingURL=style.css.map */
