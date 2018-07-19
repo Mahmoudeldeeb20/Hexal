@@ -118,8 +118,6 @@ a:hover {
 .portfolio_slider .our_portfolio .portfolio_all_content .portfolio_project {
   text-align: center;
   position: relative;
-  -webkit-transform: translateY(-150px);
-          transform: translateY(-150px);
 }
 
 .portfolio_slider .our_portfolio .portfolio_all_content .portfolio_project .line_verticaly {
