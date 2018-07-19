@@ -6,7 +6,7 @@ html(lang="en")
                 meta(http-equiv="X-UA-Compatible" content="ie=edge")
                 include assests/styles.pug
                 title HeXal
-        body
+        body#body(style="display:none")
                 aside.hexal_navbar
                         .container
                                 nav.navbar_all_items
@@ -29,21 +29,21 @@ html(lang="en")
                                                 .portfolio_project
                                                         span.line_verticaly
                                                         - for( var i = 1 ; i < 5 ; i++ )
-                                                                .project_content.duration
+                                                                .project_content.animated.fadeInRight
                                                                         a(href = "#" class = "project_link")
                                                                                 img(class = "project_img" src = 'img/project-'+ i + '.jpg', alt = "Project Img")
                                                         span.line_verticaly
                                         .portfolio_all_content
                                                 .portfolio_project
                                                         - for( var i = 5 ; i < 10 ; i++ )
-                                                                .project_content.duration
+                                                                .project_content.animated.fadeInLeft.delay-1s
                                                                         a(href = "#" class = "project_link")
                                                                                 img(class = "project_img" src = 'img/project-'+ i + '.jpg', alt = "Project Img")
                                         .portfolio_all_content
                                                 .portfolio_project
                                                         span.line_verticaly
                                                         - for( var i = 10 ; i < 14 ; i++ )
-                                                                .project_content.duration
+                                                                .project_content.animated.fadeInRight.delay-2s 
                                                                         a(href = "#" class = "project_link")
                                                                                 img(class = "project_img" src = 'img/project-'+ i + '.jpg', alt = "Project Img")
                                                         span.line_verticaly
@@ -51,7 +51,7 @@ html(lang="en")
                 section.owner_information
                         .container
                                 .row.justify-content-center.information_content
-                                        .col-lg-3.owner_img
+                                        .col-lg-3.owner_img.animated.fadeInDownBig.wow
                                                 .img_content
                                                         img(src="img/owner_img.jpg" alt="Owner Picture")
                                         .col-lg-9.owner_info
@@ -85,25 +85,25 @@ html(lang="en")
                                 .row.justify-content-center.contact_us
                                         .col-lg-9.contact_form_content
                                                 form.contact_form
-                                                        input(type="text" placeholder="Name" class="form_input")
-                                                        input(type="email" placeholder="Email" class="form_input")
-                                                        input(type="text" placeholder="Subject" class="form_input")
-                                                        textarea(class="form_text_area" placeholder="Write your message here...")
-                                                        button(type="submit" class="form_submit") Send
+                                                        input(type="text" placeholder="Name" class="form_input wow fadeInLeftBig")
+                                                        input(type="email" placeholder="Email" class="form_input wow fadeInRightBig")
+                                                        input(type="text" placeholder="Subject" class="form_input wow fadeInLeftBig delay-1s")
+                                                        textarea(class="form_text_area wow fadeInRightBig delay-1s" placeholder="Write your message here...")
+                                                        button(type="submit" class="form_submit wow fadeIn delay-2s") Send
                                         .col-lg-3.contact_description_content
-                                                p.description
+                                                p.description.wow.fadeInDown
                                                         span.highlight Quisque Hendrerit: 
                                                         |purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus morbi vitae. 
                                                 ul.contact_info
-                                                        li
+                                                        li.wow.fadeInUp
                                                                 a(href="https://goo.gl/maps/aiwQi99YNaE2")
                                                                         i.fas.fa-map-marker-alt
                                                                         |1St Hassan El-Deeb Giza , Egypt
-                                                        li
+                                                        li.wow.fadeInUp.delay-1s
                                                                 a(href="tel:+‎201153777451")
                                                                         i.fas.fa-phone
                                                                         |01153777451
-                                                        li
+                                                        li.wow.fadeInUp.delay-2s
                                                                 a(href="mailto:Mahmoud-El-Deeb@hotmail.com")
                                                                         i.fas.fa-envelope
                                                                         |Mahmoud-El-Deeb@hotmail.com
